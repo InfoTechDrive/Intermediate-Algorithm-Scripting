@@ -7,3 +7,10 @@ These challenges will allow you to test how much you have learned and which part
 We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them. The lowest number will not always come first.
 
 For example, sumAll([4,1]) should return 10 because sum of all the numbers between 1 and 4 (both inclusive) is 10. https://github.com/InfoTechDrive/Intermediate-Algorithm-Scripting/blob/master/Sum%20All%20Numbers%20in%20a%20Range.js
+
+# Diff Two Arrays
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays in any other.
+
+Test case: ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"] should return ["pink wool"].
+Solution: https://github.com/InfoTechDrive/Intermediate-Algorithm-Scripting/blob/master/DiffTwoArrays.js
+

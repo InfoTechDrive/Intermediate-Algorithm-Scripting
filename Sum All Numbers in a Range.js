@@ -1,21 +1,15 @@
 function sumAll(arr) {
-    let min = Math.min(...arr)
-    console.log(min)
-    let max = Math.max(...arr)
-    console.log(max)
-    let sum=0;
+    let min = Math.min(...arr), 
+    max = Math.max(...arr), sum=0;
     while (min<=max){
       sum += min++
     }
-    console.log(sum)
     return sum;
-  }
-  
-  sumAll([1, 4]);
-  sumAll([5, 10]);
+  }  
+  console.log(sumAll([1, 4]));
 
 //   FCC Solution 1
-  function sumAll(arr) {
+  function sumAll1(arr) {
     var max = Math.max(arr[0], arr[1]);
     var min = Math.min(arr[0], arr[1]);
     var temp = 0;
@@ -29,7 +23,7 @@ function sumAll(arr) {
 
   
 //   FCC Solution II
-const sumAll = arr => {
+const sumAll2 = arr => {
     // Buckle up everything to one!
     const startNum = arr[0];
     const endNum = arr[1];
