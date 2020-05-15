@@ -14,3 +14,11 @@ Compare two arrays and return a new array with any items only found in one of th
 Test case: ["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], ["diorite", "andesite", "grass", "dirt", "dead shrub"] should return ["pink wool"].
 Solution: https://github.com/InfoTechDrive/Intermediate-Algorithm-Scripting/blob/master/DiffTwoArrays.js
 
+# Seek and Destroy
+Remove all elements from the initial array that are of the same value as these arguments. Note: You have to use the arguments object.
+
+Test cases: 
+    destroyer([1, 2, 3, 1, 2, 3], 2, 3) should return [1, 1].
+    destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3) should return [1, 5, 1]
+    destroyer(["tree", "hamburger", 53], "tree", 53) should return ["hamburger"]
+Solution: ttps://github.com/InfoTechDrive/Intermediate-Algorithm-Scripting/blob/master/seekAndDestroy.js
